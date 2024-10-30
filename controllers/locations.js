@@ -2,7 +2,7 @@ const { response } = require('express');
 var request = require('request');
 
 const apiOptions = {
-    server: 'http://localhost:3000'
+    server: 'https://loc8r-api-4uwo.onrender.com'
 };
 if(process.env.NODE_ENV === 'production') {
     apiOptions.server = 'https://yourapi.com';
